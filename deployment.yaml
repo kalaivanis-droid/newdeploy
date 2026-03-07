@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: docker-demo
-        image: username/docker-demo:latest
+        image: krishikaa399/docker-demo:latest
         ports:
         - containerPort: 8081
         apiVersion: v1
@@ -36,4 +36,4 @@ spec:
   ports:
   - port: 80
     targetPort: 8081
-    nodePort: 30008
+    nodePort: 30009
